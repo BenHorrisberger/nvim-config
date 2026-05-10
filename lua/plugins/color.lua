@@ -64,6 +64,9 @@ return
                         TelescopeSelection = { bg = "#363636" },
                         TelescopeSelectionCaret = { fg = colors.text, bg = "#363636" },
 
+                        -- undotree
+                        UndotreeTimeStamp = { fg = colors.text },
+                        UndotreeNode = { fg = colors.yellow },
                     }
                 end,
             },

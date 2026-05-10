@@ -16,6 +16,7 @@ vim.opt.wrap = false
 -- swap backup undo file
 vim.opt.swapfile = false
 vim.opt.backup = false
+vim.opt.undofile = true
 
 -- searching
 vim.opt.hlsearch = false

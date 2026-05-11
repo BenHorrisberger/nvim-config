@@ -9,8 +9,11 @@ return {
     config = function()
         require("markview").setup({
             preview = { enable = false },
-            superscripts = { enable = true },
-            subscripts = { enable = true },
+
+            inline = {
+                superscripts = { enable = true },
+                subscripts = { enable = true },
+            },
         })
 
     end,

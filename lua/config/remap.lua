@@ -20,3 +20,6 @@ vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left pane" })
 -- terminal map
 vim.keymap.set('n', '<leader>t', ':terminal<CR>i', { desc = 'Open terminal' })
 vim.keymap.set('t', '<leader>t', '<C-\\><C-n>:bd!<CR>', { desc = 'Close terminal' })
+
+-- remap <C-w> to <C-BS> to match windows
+vim.keymap.set('i', '<C-BS>', '<C-W>', { noremap = true })
